@@ -27,3 +27,6 @@ replay_pid*
 .idea/
 out/
 *.iml
+
+# Python cache files
+__pycache__/
