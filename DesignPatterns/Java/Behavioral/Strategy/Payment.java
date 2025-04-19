@@ -29,7 +29,7 @@ class PaymentService{
 }
 
 
-public class Main{
+public class Payment{
     public static void main(String[] args){
         PaymentStrategy creditCardPayment = new CreditCardPayment();
         PaymentStrategy paypalPayment = new PaypalPayment();

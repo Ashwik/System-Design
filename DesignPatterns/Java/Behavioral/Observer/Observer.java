@@ -99,7 +99,7 @@ class NotificationService implements Notification{
 }
 
 
-public class Main{
+public class Observer{
     public static void main(String[] args){
         NotificationService notificationService = new NotificationService();
         

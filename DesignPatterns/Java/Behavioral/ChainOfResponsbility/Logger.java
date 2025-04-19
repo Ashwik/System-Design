@@ -58,7 +58,7 @@ class InfoLogProcessor extends LogProcessor{
 }
 
 
-public class Main{
+public class Logger{
     public static void main(String[] args){
         LogProcessor logger = new DebugLogProcessor(new ErrorLogProcessor(new InfoLogProcessor(null)));
         logger.log(LogLevel.DEBUG," Debuged");
